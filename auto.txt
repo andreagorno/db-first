@@ -1,0 +1,26 @@
+Nome Tabella: auto usate
+
+id - intero - MEDIUMINT - PRIMARY KEY
+marca - stringa - VARCHAR(50) - NOTNULL
+modello - stringa - VARCHAR(50) - NOTNULL
+versione - stringa - VARCHAR(100)
+carrozzeria - stringa - VARCHAR(50)
+anno di immatricolazione - data - DATE - NOTNULL
+prezzo di vendita - float - FLOAT(8, 2) // 999.999,99 - NOTNULL
+alimentazione - stringa - VARCHAR(50)
+chilometraggio - intero - MEDIUMINT - NOTNULL
+potenza - intero - SMALL 
+cambio - stringa - VARCHAR(20)
+colore carrozzeria - stringa - VARCHAR(50)
+colore interni - stringa - VARCHAR(50)
+numero di porte - intero - TINYINT
+numero di posti - intero - TINYINT
+numero di precedenti proprietari - intero - TINYINT
+classe emissioni (euro) - intero - TINYINT
+bollino ambientale - intero - TINYINT
+abs - boolean - TINYINT
+adatto a portatori di handicap - boolean - TINYINT
+airbag laterali - boolean - TINYINT
+climatizzatore automatico - boolean - TINYINT
+cruise control - boolean - TINYINT
+{...}
